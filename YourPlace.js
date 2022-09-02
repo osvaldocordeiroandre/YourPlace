@@ -6,12 +6,12 @@ let items_db = localStorage.getItem("items_db")
   : [];
 
 const colors = [
-  "#FFF",
-  "#FFF",
-  "#FFF",
-  "#FFF",
-  "#FFF",
-  "#FFF",
+  "#845EC2",
+  "#008F7A",
+  "#008E9B",
+  "#FFC75F",
+  "#FF8066",
+  "#BA3CAF",
 ];
 const randomColor = () => colors[Math.floor(Math.random() * colors.length)];
 
